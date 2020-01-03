@@ -30,6 +30,8 @@ import os
 import torch
 from torch import optim
 
+import unittest
+
 from parlai.core.opt import Opt
 from parlai.core.agents import Agent
 from parlai.utils.thread import SharedTable
